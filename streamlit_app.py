@@ -43,25 +43,3 @@ if ingredients_list:
         session.sql(my_insert_stmt).collect()
         st.success(f'Your Smoothie is ordered, {name_on_order}!',
         icon="✅")
-    
-
-
-
-
-# My own test
-code = '''def hello():
-  print("Hello World!")'''
-
-st.code(code,
-    language="python", line_numbers=True, wrap_lines=False)
-
-ascii = '''     .  o ..
-     o . o o.o
-          ...oo
-            __[]__
-         __|_o_o_o\__
-         \\""""""""""/
-          \. ..  . /
-     ^^^^^^^^^^^^^^^^^^^^'''
-
-st.code(ascii, language="None", wrap_lines=False)
