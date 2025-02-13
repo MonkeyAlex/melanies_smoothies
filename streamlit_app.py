@@ -1,3 +1,11 @@
+# First run in streamlit.io will show this error
+
+# Missing Snowflake connection configuration.
+# Did you forget to set this in `secrets.toml`,
+# a Snowflake configuration file,
+# or as kwargs to `st.connection`?
+
+
 # Import python packages
 import streamlit as st
 from snowflake.snowpark.functions import col
